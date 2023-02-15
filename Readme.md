@@ -3,5 +3,6 @@ The solution is a function i have termed sentence_checker. It takes the sentence
 
 The code is written employing simple logic in python.
 
-However to run the test_ml.py:/
+However to run the test_ml.py:
+
  pip install -U pytest
