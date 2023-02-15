@@ -56,4 +56,4 @@ def test_sentence():
         for i, j in sentence_dict.items():
             for k in range(len(j)):
                 result = sentence_checker(j[k])
-        assert result == i
+                assert result == i
