@@ -1,15 +1,22 @@
 ## This repo contains a solution to the FoondaMate challenge.
 # To use code locally
-- First install using pip
+- First install using `pip`
+  ```
   pip install git+https://github.com/dugerij/ML_challenge.git
+  ```
   
-- from ML_challenge.test_ml import sentence_checker
-  import the sentence_checker function from the package
+- import the sentence_checker function from the package
+  ```
+  from ML_challenge.test_ml import sentence_checker
+  ```
+  
   
 - Use the function as described below
+  ```
   test_sentence = 'Can I give your contacts with my friend?'
   
   sentence_checker(sentence=test_sentence) 
+  ```
   The function returns the appropriate label( i.e 'Students want to know if can share' or 'student has shared') for each sentence passed.
 
 # About the function
