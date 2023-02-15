@@ -28,4 +28,6 @@ It checks for query words such as 'Can', 'Could', 'Will', 'Would', 'May' and 'Mi
 # About the tests
 I have employed pytest package, to write a test which checks if all the provided sentences are appropriately sorted.
 
-<!--  --> hh
+# Ideas to improve function
+While the above code works to accurately classify the examples provided in the challenge, a better approach would be to employ a text classification model, trained to analyse and classify sentences as statements or questions. The model would be trained to identify more unique sentence structures and accurately classify them as questions or statements.
+Models like the oen described above are the rave in NLP, but require large datasets and compute power to train.
