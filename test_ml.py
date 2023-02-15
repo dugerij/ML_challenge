@@ -1,7 +1,6 @@
 import pytest
 
-# import the is_prime function
-    
+# filter function    
 def sentence_checker(sentence):
     sentence = sentence.lower()
     print(sentence)
@@ -23,7 +22,7 @@ def sentence_checker(sentence):
 
     return label
 
-
+# test function
 def test_sentence():
         """
         test function to test for first group "student has shared"
