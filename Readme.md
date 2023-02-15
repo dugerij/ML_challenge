@@ -5,4 +5,5 @@ The code is written employing simple logic in python.
 
 However to run the test_ml.py:
 
- pip install -U pytest
+-  pip install -U pytest
+-  pytest
