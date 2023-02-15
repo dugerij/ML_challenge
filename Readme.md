@@ -26,6 +26,6 @@ The code is written employing simple logic in python.
 It checks for query words such as 'Can', 'Could', 'Will', 'Would', 'May' and 'Might' in the submitted sentence string to sort sentences into either category. The solution is able to accurately sort all the sentences provided in the challenge scenario.
 
 # About the tests
-I have employed pytest package, to write two tests which check if all the provided sentences are appropriately sorted.
+I have employed pytest package, to write a test which checks if all the provided sentences are appropriately sorted.
 
 <!--  --> hh
