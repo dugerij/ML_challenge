@@ -1,4 +1,13 @@
 ## This repo contains a solution to the FoondaMate challenge.
+# To use code locally
+- First install using pip
+  pip install 
+- from ML_challenge.test_ml import sentence_checker
+  import the sentence_checker function from the package
+  
+- Use the function as described below
+  The function returns the appropriate label( i.e 'Students want to know if can share' or 'student has shared') for each sentence passed.
+
 # About the function
 The solution is a function i have termed sentence_checker. It takes the sentence being analysed as its only argument.
 
@@ -8,7 +17,4 @@ It checks for query words such as 'Can', 'Could', 'Will', 'Would', 'May' and 'Mi
 # About the tests
 I have employed pytest package, to write two tests which check if all the provided sentences are appropriately sorted.
 
-However to run the test_ml.py:
-
--  pip install -U pytest
--  pytest
+<!--  --> hh
